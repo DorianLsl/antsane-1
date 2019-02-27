@@ -1,0 +1,16 @@
+1551276267a:1:{s:13:"jumbotron.htm";a:6:{s:8:"fileName";s:13:"jumbotron.htm";s:7:"content";s:394:"description = "The Jumbotron"
+==
+<div class="jumbotron p-md-5 text-white rounded bg-dark">
+	<div class="col-md-6 px-0">
+		<h1 class="display-4 font-italic">Info la plus importante du moment</h1>
+		<p class="lead my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+		<p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continuer à lire...</a></p>
+	</div>
+</div>
+";s:5:"mtime";i:1551275664;s:6:"markup";s:360:"<div class="jumbotron p-md-5 text-white rounded bg-dark">
+	<div class="col-md-6 px-0">
+		<h1 class="display-4 font-italic">Info la plus importante du moment</h1>
+		<p class="lead my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+		<p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continuer à lire...</a></p>
+	</div>
+</div>";s:4:"code";N;s:11:"description";s:13:"The Jumbotron";}}
