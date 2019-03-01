@@ -1,4 +1,4 @@
-1551275947a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:1183:"description = "Navigation bar"
+1551364367a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:1217:"description = "Navigation bar"
 ==
 <header class="blog-header py-3">
 	<div class="row flex-nowrap justify-content-between align-items-center">
@@ -6,7 +6,7 @@
 			<a class="text-muted" href="#">S'enregistrer ?</a>
 		</div>
 		<div class="col-4 text-center">
-			<a class="blog-header-logo text-dark" href="#">Volley Club Lievin</a>
+			<a class="blog-header-logo text-dark" href="{{ homepage.url }}">Volley Club Lievin</a>
 		</div>
 		<div class="col-4 d-flex justify-content-end align-items-center">
 			<a class="text-muted" href="#">
@@ -22,20 +22,20 @@
 
 <div class="nav-scroller py-1 mb-2">
 	<nav class="nav d-flex justify-content-between">
-		<a class="p-2 text-muted" href="#">Accueil</a>
+		<a class="p-2 text-muted" href="{{ homepage.url }}">Accueil</a>
 		<a class="p-2 text-muted" href="#">Actualités</a>
 		<a class="p-2 text-muted" href="#">Le Club</a>
 		<a class="p-2 text-muted" href="#">Les équipes</a>
 		<a class="p-2 text-muted" href="#">Championnats et résultats</a>
 	</nav>
 </div>
-";s:5:"mtime";i:1551274611;s:6:"markup";s:1148:"<header class="blog-header py-3">
+";s:5:"mtime";i:1551363763;s:6:"markup";s:1182:"<header class="blog-header py-3">
 	<div class="row flex-nowrap justify-content-between align-items-center">
 		<div class="col-4 pt-1">
 			<a class="text-muted" href="#">S'enregistrer ?</a>
 		</div>
 		<div class="col-4 text-center">
-			<a class="blog-header-logo text-dark" href="#">Volley Club Lievin</a>
+			<a class="blog-header-logo text-dark" href="{{ homepage.url }}">Volley Club Lievin</a>
 		</div>
 		<div class="col-4 d-flex justify-content-end align-items-center">
 			<a class="text-muted" href="#">
@@ -51,7 +51,7 @@
 
 <div class="nav-scroller py-1 mb-2">
 	<nav class="nav d-flex justify-content-between">
-		<a class="p-2 text-muted" href="#">Accueil</a>
+		<a class="p-2 text-muted" href="{{ homepage.url }}">Accueil</a>
 		<a class="p-2 text-muted" href="#">Actualités</a>
 		<a class="p-2 text-muted" href="#">Le Club</a>
 		<a class="p-2 text-muted" href="#">Les équipes</a>

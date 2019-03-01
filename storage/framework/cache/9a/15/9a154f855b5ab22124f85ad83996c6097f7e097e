@@ -1,13 +1,9 @@
-1551276181a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:236:"==
+1551364179a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:167:"==
 <footer class="blog-footer">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis at doloremque amet, similique molestiae distinctio rem?</p>
-    <p>
-        <a href="#">Back to top</a>
-    </p>
+    <p>Crée par <a href="#">Antsane</a> © 2019</p>
+    <p>© 2019 Volley Club Liévinois - Tous droits réservés</p>
 </footer>
-";s:5:"mtime";i:1551275581;s:6:"markup";s:230:"<footer class="blog-footer">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis at doloremque amet, similique molestiae distinctio rem?</p>
-    <p>
-        <a href="#">Back to top</a>
-    </p>
+";s:5:"mtime";i:1551360458;s:6:"markup";s:161:"<footer class="blog-footer">
+    <p>Crée par <a href="#">Antsane</a> © 2019</p>
+    <p>© 2019 Volley Club Liévinois - Tous droits réservés</p>
 </footer>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

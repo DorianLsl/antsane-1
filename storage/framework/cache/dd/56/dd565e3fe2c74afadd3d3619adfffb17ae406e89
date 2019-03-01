@@ -1,78 +1,76 @@
-1551276230a:1:{s:12:"homepage.htm";a:9:{s:8:"fileName";s:12:"homepage.htm";s:7:"content";s:1686:"title = "homepage"
+1551364086a:1:{s:12:"homepage.htm";a:10:{s:8:"fileName";s:12:"homepage.htm";s:7:"content";s:1153:"title = "homepage"
 url = "/"
 layout = "default"
 is_hidden = 0
-==
 
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 4
+noPostsMessage = "Aucun article disponible"
+sortOrder = "published_at desc"
+categoryPage = "homepage"
+postPage = "post"
+==
 {% partial 'jumbotron' %}
 
 <!-- <div data-type="youtube" data-video-id="1J5WeBhhO2k" data-plyr='{"autoplay":true}'></div> -->
 
-<div class="row">
-  <div class="col-md-6">
-    <div class="card flex-md-row mb-4 box-shadow h-md-250">
-      <div class="card-body d-flex flex-column align-items-start">
-        <strong class="d-inline-block mb-2 text-primary">World</strong>
-        <h3 class="mb-0">
-          <a class="text-dark" href="#">Featured post</a>
-        </h3>
-        <div class="mb-1 text-muted">Nov 12</div>
-        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
-          content.</p>
-        <a href="#">Continue reading</a>
+<main role="main" class="container">
+  <div class="row">
+    <div class="col-md-8 blog-main">
+
+      <h3 class="pb-3 mb-4 font-italic border-bottom">
+        Dernières news
+      </h3>
+
+      {% component 'blogPosts' %}
+
+    </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+      <div class="p-3 mb-3 bg-light rounded">
+        <h4 class="font-italic">A propos</h4>
+        <p class="mb-0">Bienvenue sur une toute nouvelle version de notre site crée par AntSane !</p>
       </div>
-      <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
-    </div>
-  </div>
-  <div class="col-md-6">
-    <div class="card flex-md-row mb-4 box-shadow h-md-250">
-      <div class="card-body d-flex flex-column align-items-start">
-        <strong class="d-inline-block mb-2 text-success">Design</strong>
-        <h3 class="mb-0">
-          <a class="text-dark" href="#">Post title</a>
-        </h3>
-        <div class="mb-1 text-muted">Nov 11</div>
-        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
-          content.</p>
-        <a href="#">Continue reading</a>
+
+      <div class="p-3">
+        <h4 class="font-italic">Retrouvez nous</h4>
+        <ol class="list-unstyled">
+          <li><a href="#">Facebook</a></li>
+        </ol>
       </div>
-      <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
-    </div>
+    </aside><!-- /.blog-sidebar -->
+
   </div>
-</div>
-";s:5:"mtime";i:1551275630;s:6:"markup";s:1612:"{% partial 'jumbotron' %}
+</main>";s:5:"mtime";i:1551363484;s:6:"markup";s:898:"{% partial 'jumbotron' %}
 
 <!-- <div data-type="youtube" data-video-id="1J5WeBhhO2k" data-plyr='{"autoplay":true}'></div> -->
 
-<div class="row">
-  <div class="col-md-6">
-    <div class="card flex-md-row mb-4 box-shadow h-md-250">
-      <div class="card-body d-flex flex-column align-items-start">
-        <strong class="d-inline-block mb-2 text-primary">World</strong>
-        <h3 class="mb-0">
-          <a class="text-dark" href="#">Featured post</a>
-        </h3>
-        <div class="mb-1 text-muted">Nov 12</div>
-        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
-          content.</p>
-        <a href="#">Continue reading</a>
+<main role="main" class="container">
+  <div class="row">
+    <div class="col-md-8 blog-main">
+
+      <h3 class="pb-3 mb-4 font-italic border-bottom">
+        Dernières news
+      </h3>
+
+      {% component 'blogPosts' %}
+
+    </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+      <div class="p-3 mb-3 bg-light rounded">
+        <h4 class="font-italic">A propos</h4>
+        <p class="mb-0">Bienvenue sur une toute nouvelle version de notre site crée par AntSane !</p>
       </div>
-      <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
-    </div>
-  </div>
-  <div class="col-md-6">
-    <div class="card flex-md-row mb-4 box-shadow h-md-250">
-      <div class="card-body d-flex flex-column align-items-start">
-        <strong class="d-inline-block mb-2 text-success">Design</strong>
-        <h3 class="mb-0">
-          <a class="text-dark" href="#">Post title</a>
-        </h3>
-        <div class="mb-1 text-muted">Nov 11</div>
-        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
-          content.</p>
-        <a href="#">Continue reading</a>
+
+      <div class="p-3">
+        <h4 class="font-italic">Retrouvez nous</h4>
+        <ol class="list-unstyled">
+          <li><a href="#">Facebook</a></li>
+        </ol>
       </div>
-      <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
-    </div>
+    </aside><!-- /.blog-sidebar -->
+
   </div>
-</div>";s:4:"code";N;s:5:"title";s:8:"homepage";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}
+</main>";s:4:"code";N;s:5:"title";s:8:"homepage";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:9:"blogPosts";a:6:{s:10:"pageNumber";s:11:"{{ :page }}";s:12:"postsPerPage";s:1:"4";s:14:"noPostsMessage";s:24:"Aucun article disponible";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:8:"homepage";s:8:"postPage";s:4:"post";}}}

@@ -41,41 +41,40 @@ class __TwigTemplate_5ca2e419d1ab039b6f988a55be0af955521a38245b736e4048d5a4eeb51
         // line 17
         echo "
 </head>
-
 <body>
 
   <div class=\"container\">
 
     ";
-        // line 24
+        // line 23
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("navbar"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 25
+        // line 24
         echo "
     <section id=\"page\">
       ";
-        // line 27
+        // line 26
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 28
+        // line 27
         echo "    </section>
 
   </div>
 
   ";
-        // line 32
+        // line 31
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 33
+        // line 32
         echo "
   <script src=\"";
-        // line 34
+        // line 33
         echo $this->extensions['Cms\Twig\Extension']->themeFilter(array(0 => "assets/vendor/jquery/dist/jquery.min.js", 1 => "assets/vendor/tether/dist/js/tether.min.js", 2 => "assets/vendor/bootstrap/dist/js/bootstrap.min.js", 3 => "assets/vendor/wow/dist/wow.min.js", 4 => "assets/vendor/holderjs/holder.min.js", 5 => "assets/vendor/plyr/dist/plyr.js", 6 => "assets/js/scripts.js"));
-        // line 42
+        // line 41
         echo "\"></script>
   ";
-        // line 43
+        // line 42
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         if ($_minify) {
             echo '<script src="'. Request::getBasePath()
@@ -90,11 +89,11 @@ class __TwigTemplate_5ca2e419d1ab039b6f988a55be0af955521a38245b736e4048d5a4eeb51
         echo '<link rel="stylesheet" property="stylesheet" href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
-        // line 44
+        // line 43
         echo "  ";
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 45
+        // line 44
         echo "</body>
 
 </html>";
@@ -112,7 +111,7 @@ class __TwigTemplate_5ca2e419d1ab039b6f988a55be0af955521a38245b736e4048d5a4eeb51
 
     public function getDebugInfo()
     {
-        return array (  98 => 45,  94 => 44,  79 => 43,  76 => 42,  74 => 34,  71 => 33,  67 => 32,  61 => 28,  59 => 27,  55 => 25,  51 => 24,  42 => 17,  39 => 16,  35 => 14,  33 => 9,  23 => 1,);
+        return array (  97 => 44,  93 => 43,  78 => 42,  75 => 41,  73 => 33,  70 => 32,  66 => 31,  60 => 27,  58 => 26,  54 => 24,  50 => 23,  42 => 17,  39 => 16,  35 => 14,  33 => 9,  23 => 1,);
     }
 
     public function getSourceContext()
@@ -135,7 +134,6 @@ class __TwigTemplate_5ca2e419d1ab039b6f988a55be0af955521a38245b736e4048d5a4eeb51
   {% styles %}
 
 </head>
-
 <body>
 
   <div class=\"container\">

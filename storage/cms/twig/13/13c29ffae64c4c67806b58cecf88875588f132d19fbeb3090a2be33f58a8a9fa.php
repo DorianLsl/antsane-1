@@ -21,10 +21,8 @@ class __TwigTemplate_cf2e21f437e8e1b64454ccbcaf7843568a6999db96332c56f99bc3e53a7
     {
         // line 1
         echo "<footer class=\"blog-footer\">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis at doloremque amet, similique molestiae distinctio rem?</p>
-    <p>
-        <a href=\"#\">Back to top</a>
-    </p>
+    <p>Crée par <a href=\"#\">Antsane</a> © 2019</p>
+    <p>© 2019 Volley Club Liévinois - Tous droits réservés</p>
 </footer>";
     }
 
@@ -41,10 +39,8 @@ class __TwigTemplate_cf2e21f437e8e1b64454ccbcaf7843568a6999db96332c56f99bc3e53a7
     public function getSourceContext()
     {
         return new Twig_Source("<footer class=\"blog-footer\">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis at doloremque amet, similique molestiae distinctio rem?</p>
-    <p>
-        <a href=\"#\">Back to top</a>
-    </p>
+    <p>Crée par <a href=\"#\">Antsane</a> © 2019</p>
+    <p>© 2019 Volley Club Liévinois - Tous droits réservés</p>
 </footer>", "C:\\wamp64\\www\\install-master/themes/volley-club-lievin/partials/footer.htm", "");
     }
 }

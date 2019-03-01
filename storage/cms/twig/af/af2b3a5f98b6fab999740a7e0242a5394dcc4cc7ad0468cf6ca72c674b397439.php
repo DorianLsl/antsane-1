@@ -26,7 +26,10 @@ class __TwigTemplate_37ce1b2ab312e1538a0cf4756c56afd0848c439b0a5aa765fa8c833a1bc
 \t\t\t<a class=\"text-muted\" href=\"#\">S'enregistrer ?</a>
 \t\t</div>
 \t\t<div class=\"col-4 text-center\">
-\t\t\t<a class=\"blog-header-logo text-dark\" href=\"#\">Volley Club Lievin</a>
+\t\t\t<a class=\"blog-header-logo text-dark\" href=\"";
+        // line 7
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["homepage"] ?? null), "url", array()), "html", null, true);
+        echo "\">Volley Club Lievin</a>
 \t\t</div>
 \t\t<div class=\"col-4 d-flex justify-content-end align-items-center\">
 \t\t\t<a class=\"text-muted\" href=\"#\">
@@ -42,7 +45,10 @@ class __TwigTemplate_37ce1b2ab312e1538a0cf4756c56afd0848c439b0a5aa765fa8c833a1bc
 
 <div class=\"nav-scroller py-1 mb-2\">
 \t<nav class=\"nav d-flex justify-content-between\">
-\t\t<a class=\"p-2 text-muted\" href=\"#\">Accueil</a>
+\t\t<a class=\"p-2 text-muted\" href=\"";
+        // line 23
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["homepage"] ?? null), "url", array()), "html", null, true);
+        echo "\">Accueil</a>
 \t\t<a class=\"p-2 text-muted\" href=\"#\">Actualités</a>
 \t\t<a class=\"p-2 text-muted\" href=\"#\">Le Club</a>
 \t\t<a class=\"p-2 text-muted\" href=\"#\">Les équipes</a>
@@ -56,9 +62,14 @@ class __TwigTemplate_37ce1b2ab312e1538a0cf4756c56afd0848c439b0a5aa765fa8c833a1bc
         return "C:\\wamp64\\www\\install-master/themes/volley-club-lievin/partials/navbar.htm";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  23 => 1,);
+        return array (  50 => 23,  31 => 7,  23 => 1,);
     }
 
     public function getSourceContext()
@@ -69,7 +80,7 @@ class __TwigTemplate_37ce1b2ab312e1538a0cf4756c56afd0848c439b0a5aa765fa8c833a1bc
 \t\t\t<a class=\"text-muted\" href=\"#\">S'enregistrer ?</a>
 \t\t</div>
 \t\t<div class=\"col-4 text-center\">
-\t\t\t<a class=\"blog-header-logo text-dark\" href=\"#\">Volley Club Lievin</a>
+\t\t\t<a class=\"blog-header-logo text-dark\" href=\"{{ homepage.url }}\">Volley Club Lievin</a>
 \t\t</div>
 \t\t<div class=\"col-4 d-flex justify-content-end align-items-center\">
 \t\t\t<a class=\"text-muted\" href=\"#\">
@@ -85,7 +96,7 @@ class __TwigTemplate_37ce1b2ab312e1538a0cf4756c56afd0848c439b0a5aa765fa8c833a1bc
 
 <div class=\"nav-scroller py-1 mb-2\">
 \t<nav class=\"nav d-flex justify-content-between\">
-\t\t<a class=\"p-2 text-muted\" href=\"#\">Accueil</a>
+\t\t<a class=\"p-2 text-muted\" href=\"{{ homepage.url }}\">Accueil</a>
 \t\t<a class=\"p-2 text-muted\" href=\"#\">Actualités</a>
 \t\t<a class=\"p-2 text-muted\" href=\"#\">Le Club</a>
 \t\t<a class=\"p-2 text-muted\" href=\"#\">Les équipes</a>
